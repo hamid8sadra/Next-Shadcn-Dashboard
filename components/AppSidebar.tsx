@@ -73,7 +73,7 @@ const AppSidebar = () => {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
-        {/* Group 2 action button */}
+        {/* Group 2 ActionButton */}
         <SidebarGroup>
           <SidebarGroupLabel>Projects (Action)</SidebarGroupLabel>
           <SidebarGroupAction>
