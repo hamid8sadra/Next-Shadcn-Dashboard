@@ -22,7 +22,10 @@ const Navbar = () => {
   return (
     <nav className='flex p-4 items-center justify-between'>
       {/* left */}
+      <div>
       <SidebarTrigger/>
+      {/* gi<span className='text-'>Menu</span> */}
+      </div>
       {/* <Button variant='outline' onClick={toggleSidebar}>menu</Button> */}
       {/* right */}
       <div className='flex items-center gap-4'>
