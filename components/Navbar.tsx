@@ -20,7 +20,7 @@ const Navbar = () => {
   const { theme,setTheme } = useTheme()
   const {toggleSidebar} = useSidebar();
   return (
-    <nav className='flex p-4 items-center justify-between'>
+    <nav className='flex p-4 items-center justify-between sticky top-0 bg-background z-10'>
       {/* left */}
       <div>
       <SidebarTrigger/>
@@ -29,6 +29,8 @@ const Navbar = () => {
       {/* <Button variant='outline' onClick={toggleSidebar}>menu</Button> */}
       {/* right */}
       <div className='flex items-center gap-4'>
+        <Link href="/payments">Payments</Link>
+        <Link href="/users/john">Profile</Link>
         <Link href="/">Dashboard</Link>
         {/* theme select */}
         <DropdownMenu>
