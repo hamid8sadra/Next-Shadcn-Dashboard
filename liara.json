@@ -1,0 +1,8 @@
+{
+  "app": "hamidsadra",
+  "port": 3000,
+  "build": {
+    "location": "iran"
+  },
+  "disks": []
+}
